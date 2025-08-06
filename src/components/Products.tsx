@@ -44,14 +44,19 @@ const products = [
 
 const Products = () => {
   return (
-    <section id="productos" className="py-20">
-      <div className="container mx-auto px-4">
+    <section id="productos" className="relative py-20 overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-red-50"></div>
+      <div className="absolute top-10 right-10 w-32 h-32 bg-gradient-to-br from-amber-200 to-red-200 rounded-full opacity-20 blur-xl"></div>
+      <div className="absolute bottom-10 left-10 w-24 h-24 bg-gradient-to-br from-green-200 to-amber-200 rounded-full opacity-20 blur-xl"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Nuestros <span className="text-primary">Productos Destacados</span>
+          <h2 className="text-5xl md:text-7xl font-serif italic text-gray-800 mb-6">
+            Shop
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Descubre nuestra selección de productos naturales más populares, formulados con los mejores ingredientes
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Descubre nuestra selección premium de productos naturales, cuidadosamente formulados con los mejores ingredientes para tu bienestar integral y salud óptima.
           </p>
         </div>
 

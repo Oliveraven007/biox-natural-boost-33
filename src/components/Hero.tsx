@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import heroGifts from "@/assets/hero-natural-gifts.jpg";
 import discountProducts from "@/assets/discount-health-products.jpg";
 import bigDiscount from "@/assets/big-discount-wellness.jpg";
-import newArrivals from "@/assets/new-arrivals-health.jpg";
+import wellnessProducts from "@/assets/wellness-natural-products.jpg";
 import morningWellness from "@/assets/morning-wellness.jpg";
 
 const Hero = () => {
@@ -21,11 +21,11 @@ const Hero = () => {
             <div className="absolute inset-0 bg-black/30 rounded-3xl"></div>
             <div className="relative p-8 lg:p-12 h-full min-h-[300px] flex items-center">
               <div className="max-w-md">
-                <p className="text-lg text-purple-200 mb-4">Los Mejores Productos Naturales</p>
-                <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6" style={{fontFamily: 'serif'}}>
-                  De Nuestra Tienda
+                <p className="text-lg text-purple-200 mb-4 font-medium">Los Mejores Productos Naturales</p>
+                <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6 font-serif leading-tight">
+                  Productos Naturales
                   <br />
-                  a Tu Hogar!
+                  de Confianza
                 </h1>
                 <Button className="bg-purple-700 hover:bg-purple-800 text-white px-8 py-3 rounded-full">
                   Comprar Ahora
@@ -44,10 +44,10 @@ const Hero = () => {
             <div className="absolute inset-0 bg-black/40 rounded-3xl"></div>
             <div className="relative p-6 lg:p-8 h-full min-h-[300px] flex flex-col justify-center">
               <h2 className="text-3xl lg:text-4xl font-bold text-white mb-2">-40%</h2>
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4" style={{fontFamily: 'serif'}}>
-                Aprovecha Tu
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 font-serif leading-tight">
+                Descuentos Especiales
                 <br />
-                Descuento en Salud
+                en Productos de Salud
               </h3>
               <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full self-start">
                 Obtener Descuentos
@@ -67,11 +67,11 @@ const Hero = () => {
             />
             <div className="absolute inset-0 bg-black/40 rounded-3xl"></div>
             <div className="relative p-6 h-full min-h-[240px] flex flex-col justify-center">
-              <p className="text-purple-200 mb-2">Gran Descuento</p>
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4" style={{fontFamily: 'serif'}}>
-                Ahorra en
+              <p className="text-purple-200 mb-2 font-medium">Ofertas Especiales</p>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 font-serif leading-tight">
+                Ahorra en Tu
                 <br />
-                Bienestar
+                Bienestar Diario
               </h3>
               <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full self-start font-semibold">
                 Comprar Ahora
@@ -79,18 +79,18 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* New Arrivals - Teal card */}
+          {/* Wellness Natural - Professional products */}
           <div className="relative rounded-3xl overflow-hidden">
             <img
-              src={newArrivals}
-              alt="Nuevos productos"
+              src={wellnessProducts}
+              alt="Productos de bienestar natural"
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black/40 rounded-3xl"></div>
             <div className="relative p-6 h-full min-h-[240px] flex flex-col justify-center">
-              <p className="text-purple-200 mb-2">Nuevos Productos</p>
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4" style={{fontFamily: 'serif'}}>
-                Wellness
+              <p className="text-purple-200 mb-2 font-medium">Productos Certificados</p>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 font-serif leading-tight">
+                Bienestar
                 <br />
                 Natural
               </h3>
@@ -109,11 +109,11 @@ const Hero = () => {
             />
             <div className="absolute inset-0 bg-black/40 rounded-3xl"></div>
             <div className="relative p-6 h-full min-h-[240px] flex flex-col justify-center">
-              <p className="text-purple-200 mb-2">Regalos Naturales</p>
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4" style={{fontFamily: 'serif'}}>
-                Bienestar
+              <p className="text-purple-200 mb-2 font-medium">Rutina Saludable</p>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 font-serif leading-tight">
+                Energía
                 <br />
-                Matutino
+                Matutina
               </h3>
               <Button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full self-start">
                 Obtener Ahora
